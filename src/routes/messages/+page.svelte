@@ -428,7 +428,7 @@
                     {:else if message.type === "remix"}
                         <p>
                             <a
-                                href={`https://studio.penguinmod.com/#${message.remixId}`}
+                                href={`https://espressoblocks.com/#${message.remixId}`}
                                 target="_blank"
                             >
                                 {String(
@@ -458,7 +458,7 @@
                         </p>
                         <p>
                             <a
-                                href={`https://studio.penguinmod.com/#${message.projectId}`}
+                                href={`https://espressoblocks.com/#${message.projectId}`}
                                 target="_blank"
                             >
                                 <LocalizedText

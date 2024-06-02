@@ -186,7 +186,7 @@
         switch (type) {
             case "upload":
             case "remixed":
-                return `https://studio.penguinmod.com/#${content.id}`;
+                return `https://espressoblocks.com/#${content.id}`;
             case "posted":
                 return `/profile?user=${author}&post=${content.id}`;
             default:
@@ -198,7 +198,7 @@
     onMount(async () => {
         const projectId = Number(location.hash.replace("#", ""));
         if (!isNaN(projectId) && projectId != 0) {
-            location.href = `https://studio.penguinmod.com/#${projectId}`;
+            location.href = `https://espressoblocks.com/#${projectId}`;
             return;
         }
 
@@ -299,14 +299,14 @@
 </script>
 
 <svelte:head>
-    <title>PenguinMod - Home</title>
-    <meta name="title" content="PenguinMod - Home" />
-    <meta property="og:title" content="PenguinMod - Home" />
-    <meta property="twitter:title" content="PenguinMod - Home">
+    <title>Espresso - Home</title>
+    <meta name="title" content="Espresso - Home" />
+    <meta property="og:title" content="Espresso - Home" />
+    <meta property="twitter:title" content="Espresso - Home">
     <meta name="description" content="The area where featured projects and community stuff & info is shown.">
     <meta property="twitter:description" content="The area where featured projects and community stuff & info is shown.">
-    <meta property="og:url" content="https://penguinmod.com/">
-    <meta property="twitter:url" content="https://penguinmod.com/">
+    <meta property="og:url" content="https://home.espressoblocks.com/">
+    <meta property="twitter:url" content="https://home.espressoblocks.com/">
 </svelte:head>
 
 <NavigationBar />
@@ -336,7 +336,7 @@
         hasImage={false}
         hasButton={true}
         buttonText={"View"}
-        buttonHref={"https://studio.penguinmod.com/privacy.html"}
+        buttonHref={"https://espressoblocks.com/privacy.html"}
     /> -->
     <StatusAlert />
 

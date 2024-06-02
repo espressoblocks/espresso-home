@@ -33,7 +33,7 @@
         if (
             !(
                 urlObject.host.startsWith("dev.penguinmod.com") ||
-                urlObject.host.startsWith("studio.penguinmod.com") ||
+                urlObject.host.startsWith("espressoblocks.com") ||
                 urlObject.host.startsWith("penguinmod.com") ||
                 urlObject.host.startsWith("localhost:3000")
             )

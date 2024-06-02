@@ -964,11 +964,11 @@
                 <div class="card-projects">
                     <iframe
                         title="Guidelines Page"
-                        src="https://studio.penguinmod.com/PenguinMod-Guidelines/PROJECTS"
+                        src="https://espressoblocks.com/PenguinMod-Guidelines/PROJECTS"
                     />
                 </div>
                 <a
-                    href="https://studio.penguinmod.com/PenguinMod-Guidelines/PROJECTS"
+                    href="https://espressoblocks.com/PenguinMod-Guidelines/PROJECTS"
                     style="margin-top:6px;color:dodgerblue"
                     target="_blank"
                 >
@@ -1013,7 +1013,7 @@
                 {#if selectedProjectName}
                     <a
                         target="_blank"
-                        href={`https://studio.penguinmod.com/#${lastSelectedProjectId}`}
+                        href={`https://espressoblocks.com/#${lastSelectedProjectId}`}
                         style="color: dodgerblue"
                     >
                         <p>
@@ -1478,9 +1478,9 @@
                                     <p>
                                         View project at
                                         <a
-                                            href={`https://studio.penguinmod.com/#${content.id}`}
+                                            href={`https://espressoblocks.com/#${content.id}`}
                                         >
-                                            {`https://studio.penguinmod.com/#${content.id}`}
+                                            {`https://espressoblocks.com/#${content.id}`}
                                         </a>
                                         or
                                         <button

@@ -4,17 +4,17 @@ export default {
     /**
      * PenguinMod's normal page
      */
-    base: "https://studio.penguinmod.com/",
+    base: "https://espressoblocks.com",
 
     /**
      * PenguinMod's editor page
      */
-    editor: "https://studio.penguinmod.com/editor.html",
+    editor: "https://espressoblocks.com/editor.html",
 
     /**
      * PenguinMod's credits page
      */
-    credits: "https://studio.penguinmod.com/credits.html",
+    credits: "https://espressoblocks.com/credits.html",
 
     /**
      * PenguinMod's terms of service page
@@ -33,7 +33,7 @@ export default {
         /**
          * PenguinMod's project uploading guidelines
          */
-        projects: "https://studio.penguinmod.com/PenguinMod-Guidelines/PROJECTS"
+        projects: "https://espressoblocks.com/PenguinMod-Guidelines/PROJECTS"
     },
 
     /**
@@ -57,12 +57,12 @@ export default {
     /**
      * PenguinMod's home page
      */
-    home: "https://penguinmod.com/",
+    home: "https://home.espressoblocks.com/",
 
     /**
      * PenguinMod's packager page
      */
-    packager: "https://studio.penguinmod.com/PenguinMod-Packager/",
+    packager: "https://packager.espressoblocks.com",
 
     /**
      * PenguinMod's unofficial wiki
